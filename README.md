@@ -9,6 +9,8 @@ Ajout également d'une ligne de code dans le programme principal `pcsc_scan.c` n
 
 > Ce README ne portera que sur cette fonctionnalité et tout ce qui en découle. Pour plus d'informations sur le fonctionnement des librairies pcsc, je vous invite à consulter la page git du paquet natif.
 
+## Mise en place programme
+
 Exécuter les commandes suivantes à la racine du projet
 
 `./configure`
