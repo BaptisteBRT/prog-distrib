@@ -832,22 +832,10 @@ get_readers:
 				printf("Status unavailable, ");
 
 			if (rgReaderStates_t[current_reader].dwEventState &
-				SCARD_STATE_EMPTY)
-				{
-					printf("Card removed, ");
-					/*
-					if(firstFlag)
-					{
-						// TEMPS ROTA MOTEUR
-						clock_gettime(CLOCK_MONOTONIC, &tend);
-						float tempsRota= ((double)tend.tv_sec + 1.0e-9*tend.tv_nsec) - 
-							((double)tstart.tv_sec + 1.0e-9*tstart.tv_nsec);
+				SCARD_STATE_EMPTY){
 
-						printf("Temps de rotation du moteur: %f seconds\n",tempsRota);
-						// PUSH DATA SUR BDD
-						pushRepas(tempsRota,tagChat);
-					}
-					*/
+					printf("Card removed, ");
+					
 				}
 				
 					
@@ -856,10 +844,7 @@ get_readers:
 				SCARD_STATE_PRESENT){
 
 					printf("Card inserted, ");
-					/*
-					// Début du chronomètre
-					clock_gettime(CLOCK_MONOTONIC, &tstart);
-					firstFlag=True;*/
+
 				}
 				
 
