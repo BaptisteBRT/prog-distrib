@@ -25,3 +25,14 @@ Lancer le programme à l'aide de la commande `pcsc_scan`
 
 **TODO**
 Ajouter la librairie wiringPi à la compilation et les programmes `run()` et  `stop()` pour faire fonctionner le moteur.
+
+
+## Le script auto
+install
+install gawk
+install mariadb-server
+install libmariadb-dev
+install libmariadb-dev-compat
+install pcscd
+install libpcsclite-dev
+
