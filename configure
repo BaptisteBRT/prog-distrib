@@ -4105,7 +4105,7 @@ $as_echo "$as_me: WARNING: install pcsc-lite" >&2;}
 
 else
 	PCSC_CFLAGS=$pkg_cv_PCSC_CFLAGS
-	PCSC_LIBS="$pkg_cv_PCSC_LIBS -lmysqlclient"
+	PCSC_LIBS="$pkg_cv_PCSC_LIBS -lmariadb -lwiringPi"
         { $as_echo "$as_me:${as_lineno-$LINENO}: result: yes" >&5
 $as_echo "yes" >&6; }
 
