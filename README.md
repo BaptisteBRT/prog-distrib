@@ -11,16 +11,7 @@ Ajout également d'une ligne de code dans le programme principal `pcsc_scan.c` n
 
 ## Mise en place programme
 
-Exécuter les commandes suivantes à la racine du projet
-
-`./configure`
-
-puis
-
-`sudo make install`
-
-
-Lancer le programme à l'aide de la commande `pcsc_scan`
+Un script automatise la mise en place sur le Drive.
 
 
 **TODO**
