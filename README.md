@@ -28,11 +28,11 @@ Ajouter la librairie wiringPi à la compilation et les programmes `run()` et  `s
 
 
 ## Le script auto
-install
-install gawk
-install mariadb-server
-install libmariadb-dev
-install libmariadb-dev-compat
-install pcscd
-install libpcsclite-dev
+
+- install gawk
+- install mariadb-server
+- install libmariadb-dev
+- install libmariadb-dev-compat
+- install pcscd
+- install libpcsclite-dev
 
