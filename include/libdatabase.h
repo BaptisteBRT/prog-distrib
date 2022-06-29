@@ -11,9 +11,9 @@
 #endif
 
 #define DB_HOST "localhost"
-#define DB_LOGIN "admin"
-#define DB_PW "serverWeb"
-#define DB_DB "password"
+#define DB_LOGIN "serverWeb"
+#define DB_PW "password"
+#define DB_DB "datadistributeur"
 
 
 struct objetDistrib{
