@@ -35,4 +35,5 @@ Ajouter la librairie wiringPi à la compilation et les programmes `run()` et  `s
 - install libmariadb-dev-compat
 - install pcscd
 - install libpcsclite-dev
+- install automake
 
