@@ -49,7 +49,7 @@ CPPFLAGS="$CPPFLAGS $PCSC_CFLAGS"
 PCSC_ERROR_MSG="install pcsc-lite, or use ./configure PCSC_CFLAGS=..."
 AC_CHECK_HEADER("$PCSC_PATH"winscard.h,, [AC_MSG_ERROR([$PCSC_ERROR_MSG])])
 
-saved_LIBS="$LIBS"
+saved_LIBS="$LIBS -lwiringPi -lmariadb"
 LIBS="$LIBS $PCSC_LIBS"
 AC_MSG_CHECKING([for SCardEstablishContext])
 AC_TRY_LINK_FUNC(SCardEstablishContext,
