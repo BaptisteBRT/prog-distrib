@@ -1,6 +1,5 @@
 #include "libdatabase.h"
 #include "libservo.h"
-#include "wiringPi.h"
 
 int identiteChat(char tagAnimal[MAX_ATR_SIZE*3+1])
 {
