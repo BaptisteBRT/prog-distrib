@@ -174,15 +174,13 @@ void updateDB(int idAnimal, struct objetDistrib objet)
     res = DB_sendQuery(con, query);
 
 
-    strcpy(query,"INSERT INTO Repas (date,quantite,idAnimal,idCroquette) VALUES('");
+    strcpy(query,"INSERT INTO Repas (date,quantite,idAnimal,idCroquette) SELECT '");
     strcat(query,objet.heure.date);
-    strcat(query,"',");
+    strcat(query,"', ");
     strcat(query,bufferQte);
-    strcat(query,",'");
+    strcat(query,", '");
     strcat(query,buffer);
-    strcat(query,"','");
-    strcat(query,"1");
-    strcat(query,"')");
+    strcat(query,"', idCroquette FROM Croquettes WHERE actif=1;");
 
     res = DB_sendQuery(con, query);
 
